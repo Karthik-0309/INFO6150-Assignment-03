@@ -1,0 +1,83 @@
+body {
+	font-family: "Rubik", sans-serif;
+	line-height: 1;
+	font-weight: 600;
+	color: #555;
+	overflow-x: hidden;
+}
+
+.socialmediaicons ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.socialmediaicons ul li {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.socialmediaicons ul li img {
+	width: 30px;
+	border-radius: 50%;
+}
+
+.socialmediaicons {
+	text-align: center;
+}
+
+.nuid {
+	text-align: center;
+	font-size: 24px;
+}
+
+.dropDownTextArea {
+	display: none;
+
+
+}
+
+.hide {
+	display: block;
+}
+
+#button-submit {
+	color: #fff;
+	background-color: orange;
+	border-radius: 3px;
+	border: 2px solid orange;
+	margin-left: 500px;
+	font-weight: 600;
+}
+
+#button-submit[disabled] {
+	background-color: grey;
+	border: 2px solid gray;
+	cursor: not-allowed;
+}
+
+#add {
+	font-weight: 600;
+}
+
+#myTable input {
+	margin-left: 6px;
+}
+
+#myTable {
+	border: 2px solid green;
+	border-collapse: collapse;
+	margin: 100px 40px 40px 400px;
+	padding: auto;
+}
+
+#myTable td,
+th {
+	border: 1px solid green;
+	padding: 5px;
+}
+
+#myTable th {
+	color: #fff;
+	background-color: #a7c942;
+}
